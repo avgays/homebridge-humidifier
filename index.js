@@ -1,3 +1,23 @@
+/*{
+  "bridge": {
+      "name": "Homebridge",
+      "username": "CC:21:CC:E4:FF:EE",
+      "port": 51826,
+      "pin": "031-45-158"
+  },
+  "description": "Configuration file for (e)xtended Domoticz platform.",
+  "platforms": [],
+  "accessories": [{
+      "accessory": "Humidifier",
+      "name": "Humidifier",
+      "domoUrl":"http://192.168.1.20:8080/",
+      "humID":359,
+      "sensorID":386,
+      "waterID":360,
+      "tagHum":2
+  }]
+}
+*/
 var request = require("request");
 var Service, Characteristic;
  
