@@ -1,0 +1,23 @@
+{
+  "name": "homebridge-humidifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AG",
+  "keywords": [
+    "homebridge-plugin",
+    "humidifier",
+    "myHumidifier"
+  ],
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.5"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.65.0"
+  }
+}
